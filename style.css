@@ -1,23 +1,25 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-html, body{
-    width: 100%;
-    height: 100%;
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
 #main-section {
-    height: 100%;
-    width: 100%;
-    background-color: blue;
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  overflow: hidden;
+  /* doing this made the scroll disappear */
 }
 
 #main-section video {
-    /* height: 1080px;
-    width: 1920px; */
-    /* object-fit: contain; */
-    
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
